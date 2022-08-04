@@ -1,0 +1,27 @@
+backendPacientes
+	terminal: npm run dev
+
+pacientesapp
+	terminal: npm start
+
+
+
+DOCKER
+https://deskinsight.net/es/dockerizing-react-application-un-tutorial-paso-a-paso
+
+
+ frontend
+ 	Crear imagen Docker 
+ 	docker build -t frontend .
+	correr docker 
+ 	docker run -it -p 3000:3000 -d frontend
+
+ 	comando para ver el contenedor que se esté ejecutando 
+ 	docker container ls
+
+ 	para para el docker
+ 	docker stop CONTAINER_ID
+
+
+token
+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

@@ -1,0 +1,16 @@
+clonar el proyecto ---> 
+
+// empezar la api - backendPacientes
+	cd backendPacientes
+		npm install
+		npm run dev
+
+	Nota: si es necesario instalar.
+	npm install express --save
+	npm install nodemon --save-dev
+
+// empezar la app react - pacientesapp
+	cd pacientesapp
+		npm install
+		npm start
+
